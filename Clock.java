@@ -12,27 +12,6 @@ public class Clock {
         minutes = mins_in;
     }
 
-    /*public Clock() {
-        this(0, 0);
-        System.out.println("Warning: No time value specified; setting clock to midnight!");
-    }
-
-    public void setHours(int h) {
-        hours = h;
-    }
-
-    public void setMins(int m) {
-        minutes = m;
-    }
-
-    public int getHours() {
-        return hours;
-    }
-
-    public int getMins() {
-        return minutes;
-    }*/
-
     public String getCurrentTime() {
         String output = "";
 
