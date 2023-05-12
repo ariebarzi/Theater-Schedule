@@ -39,8 +39,6 @@ public class Theater_Schedule {
         Day saturday = new Day("Sat", satMovies, 20, startTimeSat);
         Day sunday = new Day("Sun", sunMovies, 20, startTimeSun);
         
-        //monday.showMovies(true, true);
-        //tuesday.showMovies(true, false);
         Day[] week = {monday, tuesday, wednesday, thursday, friday, saturday, sunday};
         
         Scanner kb = new Scanner(System.in);
